@@ -21,6 +21,7 @@ actions.EnterData(new releaseToTesting(driver).userName,user);
 actions.EnterData(new releaseToTesting(driver).userPassword,password);
 actions.Click(new releaseToTesting(driver).userLogin);
 actions.Click(new releaseToTesting(driver).happyMe);
+actions.Click(new releaseToTesting(driver).userLogout);
 
 
 

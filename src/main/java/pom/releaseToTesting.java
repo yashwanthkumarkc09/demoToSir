@@ -43,6 +43,8 @@ ThreadLocal<WebDriver> driver;
 @FindBy(id="loginBtn")public WebElement userLogin;
 
 @FindBy(xpath="//*[@id='home-menu-bar']/li[2]/a/span")public WebElement happyMe;
+
+@FindBy(xpath="/html/body/div[2]/header/div/nav/div/ul/li[4]/a")public WebElement userLogout;
 //pomStart
 	
 
