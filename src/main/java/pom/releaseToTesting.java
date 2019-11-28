@@ -41,6 +41,8 @@ ThreadLocal<WebDriver> driver;
 @FindBy(xpath="//input[@id='password']")public WebElement userPassword;
 
 @FindBy(id="loginBtn")public WebElement userLogin;
+
+@FindBy(xpath="//*[@id='home-menu-bar']/li[2]/a/span")public WebElement happyMe;
 //pomStart
 	
 
